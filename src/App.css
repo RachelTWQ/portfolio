@@ -23,6 +23,106 @@
   color: #61dafb;
 }
 
+/* .contact-form {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+	padding: 16px;
+  background: #F7F7F7;
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow: 0px 0px 0px rgba(0,0,0,.0);
+}
+
+.contact-form h1 {
+  background: #739F3D;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+
+.contact-form input[type="submit"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #739F3D;
+  color: #fff;
+  font-size: 110% ;
+} */
+
+.contact-form { 
+  max-width:420px; 
+  margin:50px auto; 
+}
+
+.contact-form input[type="email"], 
+.contact-form input[type="text"],
+.contact-form textarea {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.contact-form input[type="email"]:focus, 
+.contact-form input[type="text"]:focus,
+.contact-form textarea:focus {
+  border:2px solid #CC4949; 
+}
+
+/* textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+} */
+
+.contact-form input[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.contact-form input[type="submit"]:hover { 
+  background:#CC4949; 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

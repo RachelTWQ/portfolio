@@ -4,11 +4,10 @@ import profileImg from './Rachel.jpg';
 export default function Home() {
   return (
     <main>
-      <div className='profileImg'>
+      <div className='profile-imgage'>
         <img src={ profileImg } alt='profile' />
       </div>
-      <div className='infoTab'>
-        <h1>Rachel Tang</h1>
+      <div className='main-tab'>
         <h1>Full Stack Web Developer</h1>
         <hr/>
         <h3>
