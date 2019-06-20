@@ -3,11 +3,11 @@ import profileImg from './Rachel.jpg';
 
 export default function Home() {
   return (
-    <main>
-      <div className='profile-imgage'>
+    <main className="main-tab">
+      <div className="profile-imgage">
         <img src={ profileImg } alt='profile' />
       </div>
-      <div className='main-tab'>
+      <div className="info">
         <h1>Full Stack Web Developer</h1>
         <hr/>
         <h3>

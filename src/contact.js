@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <main>
+    <main className="contact-tab">
       <div className="contact-form">
         <h1>Come Say Hi!</h1>
         <form action="https://formspree.io/racheltang15@hotmail.com" method="POST">
