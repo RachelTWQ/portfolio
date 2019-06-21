@@ -16,7 +16,3 @@ export default function Contact() {
     </main>
   )
 }
-
-{/*  
-    <iframe title="contact form" src="https://docs.google.com/forms/d/e/1FAIpQLSdT-k9RhxJnXGYK3f1tT3AUnREO2oj7GdDV3lO0iZ9LxzD48g/viewform?embedded=true" width="100%" height="930" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    */}

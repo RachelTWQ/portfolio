@@ -51,7 +51,7 @@
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid rgba(229,57,53,0.8);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -63,19 +63,13 @@
 .contact-form input[type="email"]:focus, 
 .contact-form input[type="text"]:focus,
 .contact-form textarea:focus {
-  border:2px solid #CC4949; 
+  border:2px solid rgba(213,0,125,0.8); 
 }
-
-/* textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-} */
 
 .contact-form input[type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -89,7 +83,7 @@
 }
 
 .contact-form input[type="submit"]:hover { 
-  background:#CC4949; 
+  background:linear-gradient(45deg, rgba(229,57,53,0.8), rgba(213,0,125,0.8)); 
 }
 
 @keyframes App-logo-spin {
