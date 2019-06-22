@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -34,6 +37,7 @@
   max-width: 600px;
   margin: 0 auto;
   border-radius: 10px;
+  padding: 0 20px;
 }
 
 .contact-form { 
@@ -45,13 +49,14 @@
 
 .contact-form h1 {
   color: white;
+  font-family: 'Cinzel', serif;
 }
 
 .contact-form input[type="email"], 
 .contact-form input[type="text"],
 .contact-form textarea {
   color:white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
