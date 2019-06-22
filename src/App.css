@@ -23,6 +23,12 @@
   color: #61dafb;
 }
 
+.img-circle {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
 .contact-tab {
   background-color: black;
   max-width: 600px;

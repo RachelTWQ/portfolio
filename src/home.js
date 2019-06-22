@@ -4,8 +4,8 @@ import profileImg from './Rachel.jpg';
 export default function Home() {
   return (
     <main className="main-tab">
-      <div className="profile-imgage">
-        <img src={ profileImg } alt='profile' />
+      <div className="profile-image">
+        <img className="img-circle" src={ profileImg } alt='profile' />
       </div>
       <div className="info">
         <h1>Full Stack Web Developer</h1>
