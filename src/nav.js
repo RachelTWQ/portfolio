@@ -7,7 +7,7 @@ export default function Nav() {
             <Link to='/'>Rachel Tang</Link>
             <a href="https://resume.creddle.io/resume/e0p2fjjet2f" target="_blank" rel="noopener noreferrer">Resume</a>
             <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Say Hi</Link>
         </div>
     )
 }
