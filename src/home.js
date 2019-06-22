@@ -18,7 +18,7 @@ export default function Home() {
           JavaScript | HTML/CSS | C# | Ruby
         </h3>
         <h3>
-          React | NodeJS | Express | JQuery | ASP.net | Entity Framework | Rails | SQL | MongoDB
+          React | NodeJS | Express | jQuery | ASP.net | Entity Framework | Rails | SQL | MongoDB
         </h3>       
       </div>
     </main>

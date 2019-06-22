@@ -12,7 +12,7 @@ export default class Projects extends React.Component {
           "full_name": "RachelTWQ/FridgeBuddy",
           "description": "Fridge inventory full-stack web app for both website and mobile. Users can easily create inventory list to keep track of items in the fridge and customize when to receive text message reminder.",
           "language": "C#, JavaScript, HTML, CSS",
-          "framework": "React, React Native, ASP.Net core, EF core, docker, Axios, Serveo, MS SQL server, Twilio API"
+          "framework": "React, React Native, ASP.Net core, EF core, docker, Axios, Serveo, MS SQL server and Twilio API"
         },
         {
           "id": 5,
@@ -44,7 +44,7 @@ export default class Projects extends React.Component {
           "full_name": "RachelTWQ/tweeter",
           "description": "A twitter clone single-page application (SPA) project which is powered by AJAX. It displays a list of existing tweets from database and allows posting new tweets.",
           "language": "JavaScript, HTML, CSS",
-          "framework": "jQuery, Express, Node, AJAX, MongoDB"
+          "framework": "jQuery, Express, Node, AJAX and MongoDB"
         },
         {
           "id": 1,
