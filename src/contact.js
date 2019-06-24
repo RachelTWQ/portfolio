@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <main className="contact-tab">
       <div className="contact-form">
-        <h1>Come Say Hi!</h1>
+        <h1>COME SAY HI!</h1>
         <form action="https://formspree.io/racheltang15@hotmail.com" method="POST">
           <input type="text" name="name" placeholder="Your Name *" required />
           <input type="text" name="company" placeholder="Your Company" />
