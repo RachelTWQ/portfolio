@@ -63,7 +63,7 @@ export default class Projects extends React.Component {
       <main className="main-tab">
         <h1>PROJECTS</h1>
         {this.state.projects.map(project => (
-          <div key={project.id} className="project-tab">
+          <div key={project.id} className="info">
             <h3>{project.name}</h3>
             <h4>{project.language}</h4>
             <h4>{project.framework}</h4>

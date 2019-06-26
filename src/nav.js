@@ -20,6 +20,7 @@ export default function Nav() {
         <span className="fa fa-times" aria-hidden="true"></span>
       </label>
         <ul>
+          <li><Link to='/'>Home</Link></li>
           <li><a href="https://resume.creddle.io/resume/e0p2fjjet2f" target="_blank" rel="noopener noreferrer">Resume</a></li>
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/contact">Say Hi</Link></li>

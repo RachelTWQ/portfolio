@@ -28,7 +28,7 @@
 
 #main-menu-checkbox {
   position: absolute;
-  left: -100vw; /* get it off the screen */
+  left: -200px; /* get it off the screen */
 }
 
 /*
@@ -37,10 +37,10 @@
 */
 .main-menu {
   position: absolute;
-  left: calc(-100vw - 1em);
+  left: -200px;
   top: 0;
-  height: 100%;
-	overflow-y: scroll;
+  /* height: 100%; */
+	/* overflow-y: scroll; */
 	overflow-x: visible;
 	transition: left 0.3s ease,
 				      box-shadow 0.3s ease;
@@ -56,7 +56,7 @@
      -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
           box-shadow: -8px 0 8px rgba(0,0,0,.5);
   /* min-height: 100%; */
-  width: 100vw;
+  width: 200px;
   background: #1a1a1a;
 }
 
@@ -131,7 +131,7 @@
   height: 100%;
   z-index: 998;
   background: #000;
-  background: rgba(0,0,0,.85);
+  background: rgba(0,0,0,.5);
   cursor: default;
 }
 

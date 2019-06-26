@@ -27,17 +27,35 @@
   color: #61dafb;
 }
 
+.main-tab {
+  padding: 1em;
+  text-align: center;
+}
+
+.profile-image {
+  display: inline-block;
+}
+
 .img-circle {
-  border-radius: 50%;
-  height: 500px;
-  width: 500px;
+  max-width: 50%;
+  height: auto;
+}
+
+.info {
+  background-color: rgba(0,0,0,.3);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
 }
 
 .info h1 {
   font-family: 'Mali', cursive;
 }
 
-.info h3 {
+.info h3 h4 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -108,6 +126,15 @@
 
 .contact-form input[type="submit"]:hover { 
   background:linear-gradient(45deg, rgba(229,57,53,0.8), rgba(213,0,125,0.8)); 
+}
+
+@media (min-width: 768px) {
+  .img-circle {
+    border-radius: 50%;
+    height: 400px;
+    width: 800px;
+  }
+  
 }
 
 @keyframes App-logo-spin {
