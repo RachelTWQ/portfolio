@@ -88,7 +88,7 @@ a {
 }
 
 .card:hover .tags .tag {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,.5);
   color: white;
 }
 
@@ -112,7 +112,7 @@ a {
 }
 
 .card:after {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,.5);
   width: 250%;
   height: 250%;
 }
@@ -128,7 +128,7 @@ a {
 .projects {
   font-size: 2em;
   display: flex;
-  padding: 1em 3em;
+  /* padding: 1em 3em; */
   height: 3em;
   flex-direction: column;
   text-align: center;
@@ -140,6 +140,9 @@ a {
   display: inline-block;
 }
 
+.projects span {
+  font-size: 0.5em;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 1285px) {
   .cards-wrapper {
