@@ -141,15 +141,18 @@ a {
 }
 
 .info-tab {
-  font-size: 1.2em;
+  font-size: 2em;
   display: flex;
   padding: 1em 3em;
   height: 3em;
+  flex-direction: column;
+  text-align: center;
 }
 
 .info-tab h1 {
   font-size: 1em;
   font-weight: normal;
+  display: inline-block;
 }
 
 /* MEDIA QUERIES */
