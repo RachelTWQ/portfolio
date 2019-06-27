@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mali:400,700&display=swap');
 
 .App {
   text-align: center;
@@ -37,6 +36,8 @@
 }
 
 .main-tab {
+  display: flex;
+  flex-direction: column;
   padding: 1em;
   text-align: center;
 }
@@ -51,7 +52,7 @@
 }
 
 .info {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(256,66,22,.1);
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -61,7 +62,7 @@
 }
 
 .info h1 {
-  font-family: 'Mali', cursive;
+  font-family: 'Cinzel', serif;
 }
 
 .info h3 h4 {
@@ -141,7 +142,7 @@
   .img-circle {
     border-radius: 50%;
     height: 400px;
-    width: 800px;
+    width: 400px;
   }
   
 }

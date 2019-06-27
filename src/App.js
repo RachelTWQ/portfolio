@@ -27,12 +27,15 @@ const particleParams = {
       }
     },
     "size": {
-      "value": 3,
+      "value": 5,
       "random": true,
       "anim": {
-        "speed": 4,
-        "size_min": 0.3
+        "speed": 8,
+        "size_min": 1
       }
+    },
+    "color": {
+      "value": ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
     },
     "line_linked": {
       "enable": false
