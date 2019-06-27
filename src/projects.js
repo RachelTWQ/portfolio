@@ -12,7 +12,7 @@ const data = [
   },
   {
     "id": 5,
-    "name": "chatty",
+    "name": "Chatty",
     "full_name": "RachelTWQ/chatty",
     "description": "Instant messenger built with React and WebSockets. Users can communicate with each other in a chat room without having to register accounts.",
     "language": "JavaScript/HTML/CSS",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     "id": 3,
-    "name": "jungle-rails",
+    "name": "Jungle-rails",
     "full_name": "RachelTWQ/jungle-rails",
     "description": "An e-commerce Ruby on Rails app built for learning MVC through debugging and refactoring existing code. Users can place order and receive email notification.",
     "language": "Ruby/HTML/CSS",
@@ -36,7 +36,7 @@ const data = [
   },
   {
     "id": 2,
-    "name": "tweeter",
+    "name": "Tweeter",
     "full_name": "RachelTWQ/tweeter",
     "description": "A twitter clone single-page application (SPA) project which is powered by AJAX. It displays a list of existing tweets from database and allows posting new tweets.",
     "language": "JavaScript/HTML/CSS",
@@ -69,8 +69,8 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <main className="projects">
-        <section className="info-tab">
+      <main>
+        <section className="projects">
           <h1><strong>PROJECTS</strong></h1>
         </section>
        <section className="cards-wrapper">

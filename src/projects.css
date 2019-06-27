@@ -38,15 +38,14 @@ a {
   height: 20em;
   width: 15em;
   font-size: 1.5em;
-  color: white;
-  background-color: rgba(0,0,0,0.5);
+  color: var(--color);
   border-radius: 1em;
   padding: 1em;
   display: flex;
   align-items: stretch;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  box-shadow: 0 0 5em -1em rgba(256,66,22,.2);
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
@@ -77,7 +76,9 @@ a {
 
 .card .tags .tag {
   font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
+  background: var(--color);
+  color: white;
+  
   border-radius: 0.3rem;
   padding: 0 0.5em;
   margin: 0.5em 0 0 0;
@@ -87,7 +88,7 @@ a {
 }
 
 .card:hover .tags .tag {
-  background: var(--color);
+  background: rgba(0,0,0,0.5);
   color: white;
 }
 
@@ -105,26 +106,26 @@ a {
 }
 
 .card:before {
-  background: #ddd;
-  width: 250%;
-  height: 250%;
-}
-
-.card:after {
   background: white;
   width: 200%;
   height: 200%;
 }
 
+.card:after {
+  background: rgba(0,0,0,0.5);
+  width: 250%;
+  height: 250%;
+}
+
 .card:hover {
-  color: var(--color);
+  color: white;
 }
 
 .card:hover:before, .card:hover:after {
   transform: scale(1);
 }
 
-.info-tab {
+.projects {
   font-size: 2em;
   display: flex;
   padding: 1em 3em;
@@ -133,7 +134,7 @@ a {
   text-align: center;
 }
 
-.info-tab h1 {
+.projects h1 {
   font-size: 1em;
   font-weight: normal;
   display: inline-block;
@@ -150,7 +151,7 @@ a {
   .cards-wrapper {
     grid-template-columns: 1fr;
   }
-  .info-tab {
+  .projects {
     justify-content: center;
   }
 }
@@ -165,11 +166,11 @@ a {
 }
 
 @media screen and (max-width: 450px) {
-  .info-tab {
+  .projects {
     display: block;
     text-align: center;
   }
-  .info-tab h1 {
+  .projects h1 {
     margin: 0;
   }
 }
