@@ -72,7 +72,7 @@ export default class Projects extends React.Component {
       <main>
         <section className="projects">
           <h1><strong>PROJECTS</strong></h1>
-          <span>(click card to see github repository)</span>
+          <p className="instruction">(click card to see github repository)</p>
         </section>
        <section className="cards-wrapper">
         {this.state.projects.map(project => (

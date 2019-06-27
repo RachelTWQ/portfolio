@@ -128,7 +128,6 @@ a {
 .projects {
   font-size: 2em;
   display: flex;
-  /* padding: 1em 3em; */
   height: 3em;
   flex-direction: column;
   text-align: center;
@@ -138,9 +137,10 @@ a {
   font-size: 1em;
   font-weight: normal;
   display: inline-block;
+  margin-bottom: 0px;
 }
 
-.projects span {
+.instruction {
   font-size: 0.5em;
 }
 /* MEDIA QUERIES */
