@@ -71,12 +71,12 @@ export default class Projects extends React.Component {
     return (
       <main className="projects">
         <section className="info-tab">
-          <h1>PROJECTS</h1>
+          <h1><strong>PROJECTS</strong></h1>
         </section>
        <section className="cards-wrapper">
         {this.state.projects.map(project => (
           <div key={project.id} className="card-grid-space">
-          <a className="card" href={`https://github.com/${project.full_name}`} target="_blank" rel="noopener noreferrer" style={{backgroundColor: "rgba(0,0,0, .3)"}}>
+          <a className="card" href={`https://github.com/${project.full_name}`} target="_blank" rel="noopener noreferrer">
             <div>
               <h1>{project.name}</h1>
               <p>{project.description}</p>
