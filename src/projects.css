@@ -161,10 +161,11 @@ a {
 
 @media screen and (max-width: 500px) {
   .cards-wrapper {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
   }
   .card {
-    max-width: calc(100vw - 4rem);
+    max-width: calc(100vw - 2rem);
+    font-size: 1.2em;
   }
 }
 
@@ -175,5 +176,6 @@ a {
   }
   .projects h1 {
     margin: 0;
+    font-size: 1.5rem;
   }
 }

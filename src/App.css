@@ -47,8 +47,9 @@
 }
 
 .img-circle {
-  max-width: 50%;
-  height: auto;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
 }
 
 .info {
@@ -141,15 +142,31 @@
   background:linear-gradient(45deg, rgba(229,57,53,0.8), rgba(213,0,125,0.8)); 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .img-circle {
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    border-radius: 0;
+    max-width: 65%;
+    height: auto;
   }
-  
+  .info {
+    font-size: 85%;
+  }
+  .info i {
+    font-size: 4rem;
+  }
 }
 
+@media (max-width: 480px) {
+  .img-circle {
+    max-width: 80%;
+  }
+  .info {
+    font-size: 70%;
+  }
+  .info i {
+    font-size: 3rem;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
