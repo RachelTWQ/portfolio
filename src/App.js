@@ -75,7 +75,7 @@ const particleParams = {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Particles className="particles" params={particleParams} />
       <Nav />
       <Switch>
