@@ -12,7 +12,7 @@ export default function Nav() {
         <span className="sr-only">Open main menu</span>
         <span className="fa fa-bars" aria-hidden="true"></span>
       </label>
-      <Link to='/portfolio' className="logo">Rachel Tang</Link>
+      <Link to='/' className="logo">Rachel Tang</Link>
       </div>
       <nav role="navigation" id="main-menu" className="main-menu" aria-expanded="false" aria-label="Main menu">
       <label htmlFor="main-menu-checkbox" className="menu-close">
@@ -20,7 +20,7 @@ export default function Nav() {
         <span className="fa fa-times" aria-hidden="true"></span>
       </label>
         <ul>
-          <li><Link to='/portfolio'>Home</Link></li>
+          <li><Link to='/'>Home</Link></li>
           <li><Link to="/projects">Projects</Link></li>
           <li><a href="https://resume.creddle.io/resume/e0p2fjjet2f" target="_blank" rel="noopener noreferrer">Resume</a></li>
           
