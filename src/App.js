@@ -80,8 +80,8 @@ function App() {
       <Nav />
       <Switch>
         <Route exact path='/' component={() => <Home />} />
-        <Route path='/#/projects' component={() => <Projects />} />
-        <Route path='/#/contact' component={() => <Contact />} />
+        <Route path='/projects' component={() => <Projects />} />
+        <Route path='/contact' component={() => <Contact />} />
       </Switch>
     </Router>
   );
