@@ -36,6 +36,7 @@
 }
 
 .main-tab {
+  animation: fadeIn ease 5s;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -173,5 +174,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
   }
 }
