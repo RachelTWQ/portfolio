@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 /* Screen reader only */
 .sr-only {
   position: absolute;
@@ -188,9 +190,6 @@
   }
 }
 
-/*
- Demo purposes only
-*/
 *,
 *:before,
 *:after {
@@ -206,8 +205,19 @@ header {
   padding: 0.5em;
 }
 
-.logo {
-  margin: 0 30px 0 10px;
+.name-logo {
+  font-family: 'Pacifico', cursive;
   font-size: 1.5em;
+  margin: 0 30px 0 10px; 
   text-decoration: none;
+}
+
+.menu-item {
+  font-style: italic;
+  font-weight: 550;
+  
+}
+
+.menu-item:hover {
+  font-style: normal;
 }
